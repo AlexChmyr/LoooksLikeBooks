@@ -1,5 +1,5 @@
 LooksLileBooks
 ===========
 
-Simple shopping cart
+Simple book shop with catalog and shoping cart using Node.js and MongoDB 
 # LoooksLikeBooks
