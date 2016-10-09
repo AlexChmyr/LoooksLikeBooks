@@ -1,0 +1,29 @@
+{>"layouts/manage" /}
+
+{<body}
+    <h2>Books</h2>
+    <p>
+        <a href="/manage/books/add" class="button small">Add book</a>
+    </p>
+    <table>
+        <thead>
+            <th width="200">ID</th>
+            <th width="200">Title</th>
+            <th width="200">Category</th>
+            <th width="180"></th>
+            <th width="180"></th>
+        </thead>
+        <tbody>
+            {#books}
+                <tr>
+                    <td>{._id}</td>
+                    <td>{.title}</td>
+                    <td>{.category}</td>
+                    <td><a class="button tiny" href="/manage/books/edit/{._id}">Edit</a></td>
+                    <td><a class="button tiny alert removebook" data-id="{._id}" href="#">Delete</a></td>
+                </tr>
+            {/books}
+        </tbody>
+    </table>
+    <input name="_csrf" class="_csrf" type="hidden" value="{_csrf}" />
+{/body}

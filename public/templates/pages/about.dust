@@ -1,0 +1,24 @@
+ {>"layouts/master" /}
+
+ {<title}
+     About Looks like BOOKS
+ {/title}
+ {<body}
+
+    <div class="row">
+        <div class="large-12 columns">
+            <h2>About us</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum elementum dignissim augue in rutrum. Curabitur vel magna blandit, efficitur urna et, sollicitudin tortor.
+                Vivamus eu ex fringilla, malesuada orci at, pharetra nisi. Pellentesque ac scelerisque elit, at placerat nisl.
+                Curabitur imperdiet consequat eros ac tincidunt.
+                Phasellus id vestibulum lorem. Donec sollicitudin commodo dolor placerat pretium.
+                Cras placerat pellentesque dolor in hendrerit. Duis semper felis sit amet eros tempus rutrum.
+                Curabitur finibus vehicula posuere.
+            </p>
+        </div>
+    </div>
+
+
+ {/body}
